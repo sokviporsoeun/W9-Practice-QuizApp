@@ -1,12 +1,12 @@
 class Question {
   final String title;
-  final List<String> Choices;
+  final List<String> choices;
   final String goodChoice;
   final int points;
 
   Question({
     required this.title,
-    required this.Choices,
+    required this.choices,
     required this.goodChoice,
     required this.points,
   });

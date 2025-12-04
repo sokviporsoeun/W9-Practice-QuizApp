@@ -46,14 +46,14 @@ class ResultItem extends StatelessWidget{
                     fontSize: 14,
                   ),
                 ),
-                if(!isCorrect)
-                Text(
-                  'Correct Answer: $correctAnswer',
-                  style: const TextStyle(
-                    color: Colors.green,
-                    fontSize: 14,
-                  ),
-                ),
+                
+                // Text(
+                //   ' $answerChoice',
+                //   style: const TextStyle(
+                //     color: Colors.green,
+                //     fontSize: 14,
+                //   ),
+                // ),
               ],
             )
           )
