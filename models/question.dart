@@ -1,7 +1,13 @@
-class Question{
+class Question {
   final String title;
-  final List<String> answerChoices;
-  final String correctAnswer;
+  final List<String> Choices;
+  final String goodChoice;
+  final int points;
 
-  Question({required this.title, required this.answerChoices, required this.correctAnswer});
+  Question({
+    required this.title,
+    required this.Choices,
+    required this.goodChoice,
+    required this.points,
+  });
 }

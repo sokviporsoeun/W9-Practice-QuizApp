@@ -1,11 +1,9 @@
-import './question.dart';
-class Answer{
-  final String userAnswer;
-  final Question question;
+class Answer {
+  final String answerChoice;
 
-  Answer({required this.question, required this.userAnswer});
+  Answer({required this.answerChoice});
 
-  bool isCorrect(){
-    return userAnswer == question.correctAnswer;
+  bool isGood(String correctAnswer){
+    return answerChoice == correctAnswer;
   }
 }
